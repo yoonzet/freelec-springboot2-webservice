@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e83f204f-4f3a-48f8-b73f-96d45f4829fa" name="Changes" comment="1130">
+    <list default="true" id="e83f204f-4f3a-48f8-b73f-96d45f4829fa" name="Changes" comment="1220">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springboot/practice/domain/posts/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/practice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/practice/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/practice/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/practice/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;/Users/yoon_z/Desktop/vscode practice/수업/08_스프링부트와 AWS로 혼자 구현하는 웹서비스/IdeaProjects/freelec-springboot2-webservice/src/test/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/yoon_z/Desktop/vscode practice/수업/08_스프링부트와 AWS로 혼자 구현하는 웹서비스/IdeaProjects/freelec-springboot2-webservice/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
@@ -77,10 +76,10 @@
       <recent name="com.springboot.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelloResponseDtoTest">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HelloControllerTest.helloTest">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springboot.practice.Application" />
-      <module name="freelec-springboot2-webservice.main" />
+      <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springboot.practice.*" />
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloResponseDtoTest" />
-        <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
-        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.HelloControllerTest.helloTest" />
+        <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
         <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="JUnit.HelloResponseDtoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669864812770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1220">
+      <created>1671541326478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671541326478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1130" />
-    <option name="LAST_COMMIT_MESSAGE" value="1130" />
+    <MESSAGE value="1220" />
+    <option name="LAST_COMMIT_MESSAGE" value="1220" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
